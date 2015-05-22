@@ -108,4 +108,5 @@ ECHO.
 ECHO Done.
 ECHO.
 
-explorer.exe /SELECT,"..\Releases\%fileName%"
+
+REM explorer.exe /SELECT,"..\Releases\%fileName%"

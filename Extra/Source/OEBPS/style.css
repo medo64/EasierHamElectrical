@@ -16,6 +16,7 @@ p {
 }
 
 ul li.correct {
+    font-size: 125%;
     list-style-type: square;
 }
 
