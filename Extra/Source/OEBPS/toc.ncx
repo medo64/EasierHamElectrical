@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="en">
+    <head>
+        <meta name="dtb:uid" content="urn:uuid:6a070bef-7599-4354-85c1-944f6eaa5571" />
+    </head>
+
+    <docTitle>
+        <text>Easy(er) Electrical Principles for Extra Class Ham License</text>
+        <img src="cover.png" />
+    </docTitle>
+
+    <docAuthor>
+        <text>Josip Medved</text>
+    </docAuthor>
+
+    <navMap>
+        <navPoint class="chapter" id="c01">
+            <navLabel><text>Components and Resonance</text></navLabel>
+            <content src="chapters/chapter-01.html" />
+            <navPoint class="chapter" id="c01-E5A01">
+                <navLabel><text>E5A01</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A01" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A02">
+                <navLabel><text>E5A02</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A02" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A03">
+                <navLabel><text>E5A03</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A03" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A04">
+                <navLabel><text>E5A04</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A04" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A05">
+                <navLabel><text>E5A05</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A05" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A06">
+                <navLabel><text>E5A06</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A06" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A07">
+                <navLabel><text>E5A07</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A07" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A08">
+                <navLabel><text>E5A08</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A08" />
+            </navPoint>
+            <navPoint class="chapter" id="c01-E5A09">
+                <navLabel><text>E5A09</text></navLabel>
+                <content src="chapters/chapter-01.html#E5A09" />
+            </navPoint>
+        </navPoint>
+
+        <navPoint class="chapter" id="c02">
+            <navLabel><text>Half-point Bandwidth</text></navLabel>
+            <content src="chapters/chapter-02.html" />
+            <navPoint class="chapter" id="c02-E5A10">
+                <navLabel><text>E5A10</text></navLabel>
+                <content src="chapters/chapter-02.html#E5A10" />
+            </navPoint>
+            <navPoint class="chapter" id="c02-E5A11">
+                <navLabel><text>E5A11</text></navLabel>
+                <content src="chapters/chapter-02.html#E5A11" />
+            </navPoint>
+            <navPoint class="chapter" id="c02-E5A12">
+                <navLabel><text>E5A12</text></navLabel>
+                <content src="chapters/chapter-02.html#E5A12" />
+            </navPoint>
+            <navPoint class="chapter" id="c02-E5A13">
+                <navLabel><text>E5A13</text></navLabel>
+                <content src="chapters/chapter-02.html#E5A13" />
+            </navPoint>
+        </navPoint>
+
+        <navPoint class="chapter" id="c03">
+            <navLabel><text>Resonant Frequency</text></navLabel>
+            <content src="chapters/chapter-03.html" />
+            <navPoint class="chapter" id="c03-E5A14">
+                <navLabel><text>E5A14</text></navLabel>
+                <content src="chapters/chapter-03.html#E5A14" />
+            </navPoint>
+            <navPoint class="chapter" id="c03-E5A15">
+                <navLabel><text>E5A15</text></navLabel>
+                <content src="chapters/chapter-03.html#E5A15" />
+            </navPoint>
+            <navPoint class="chapter" id="c03-E5A16">
+                <navLabel><text>E5A16</text></navLabel>
+                <content src="chapters/chapter-03.html#E5A16" />
+            </navPoint>
+            <navPoint class="chapter" id="c03-E5A17">
+                <navLabel><text>E5A17</text></navLabel>
+                <content src="chapters/chapter-03.html#E5A17" />
+            </navPoint>
+        </navPoint>
+
+        <navPoint class="chapter" id="c04">
+            <navLabel><text>Time Constant</text></navLabel>
+            <content src="chapters/chapter-04.html" />
+            <navPoint class="chapter" id="c04-E5B01">
+                <navLabel><text>E5B01</text></navLabel>
+                <content src="chapters/chapter-04.html#E5B01" />
+            </navPoint>
+            <navPoint class="chapter" id="c04-E5B02">
+                <navLabel><text>E5B02</text></navLabel>
+                <content src="chapters/chapter-04.html#E5B02" />
+            </navPoint>
+            <navPoint class="chapter" id="c04-E5B03">
+                <navLabel><text>E5B03</text></navLabel>
+                <content src="chapters/chapter-04.html#E5B03" />
+            </navPoint>
+            <navPoint class="chapter" id="c04-E5B04">
+                <navLabel><text>E5B04</text></navLabel>
+                <content src="chapters/chapter-04.html#E5B04" />
+            </navPoint>
+            <navPoint class="chapter" id="c04-E5B05">
+                <navLabel><text>E5B05</text></navLabel>
+                <content src="chapters/chapter-04.html#E5B05" />
+            </navPoint>
+            <navPoint class="chapter" id="c04-E5B06">
+                <navLabel><text>E5B06</text></navLabel>
+                <content src="chapters/chapter-04.html#E5B06" />
+            </navPoint>
+        </navPoint>
+
+        <navPoint class="chapter" id="c05">
+            <navLabel><text>Phase Relationships</text></navLabel>
+            <content src="chapters/chapter-05.html" />
+            <navPoint class="chapter" id="c05-E5B07">
+                <navLabel><text>E5B07</text></navLabel>
+                <content src="chapters/chapter-05.html#E5B07" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-E5B08">
+                <navLabel><text>E5B08</text></navLabel>
+                <content src="chapters/chapter-05.html#E5B08" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-E5B09">
+                <navLabel><text>E5B09</text></navLabel>
+                <content src="chapters/chapter-05.html#E5B09" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-E5B10">
+                <navLabel><text>E5B10</text></navLabel>
+                <content src="chapters/chapter-05.html#E5B10" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-E5B11">
+                <navLabel><text>E5B11</text></navLabel>
+                <content src="chapters/chapter-05.html#E5B11" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-E5B12">
+                <navLabel><text>E5B12</text></navLabel>
+                <content src="chapters/chapter-05.html#E5B12" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-E5B13">
+                <navLabel><text>E5B13</text></navLabel>
+                <content src="chapters/chapter-05.html#E5B13" />
+            </navPoint>
+        </navPoint>
+    </navMap>
+</ncx>

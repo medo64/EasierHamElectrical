@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Easy(er) Electrical Principles for Extra Class Ham License</title>
+        <link rel="stylesheet" href="../style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    </head>
+
+    <body>
+        <h1>Half-point Bandwidth</h1>
+        <p>There is only a single formula you have to know for any half-power bandwidth. <b>BW = f / Q</b>. So, to get any half-bandwidth figure just divide frequency with Q. Questions are written in such manner that only understanding of formula with a lot of rounding is enough for correct result.</p>
+        <p>And calculator is not necessary for this – if in doubt just round. E.g. If frequency is 7.1 MHz and Q is 150, just abuse the heck out of metric system and move decimal place around at will. That is, result will start with same number if you divide 71 (instead of 7.1) with 15 (instead of 150). In this example result will start with a number slightly less than 5. This would be close to select 47.3 kHz  as an answer (remember, move decimal places at will in both question and answer).</p>
+        <p>Do notice that we can completely ignore units in this case and there is a good reason for this. Those preparing questions want to see it you understand the principle, not whether you can do basic algebra. When you need this formula in real life, you will have a calculator next to you and you can do it properly.</p>
+
+        <h2 id="E5A10">E5A10</h2>
+        <p><b>What is the half-power bandwidth of a parallel resonant circuit that has a resonant frequency of 1.8 MHz and a Q of 95?</b></p>
+        <ul>
+            <li class="correct"><b>A. 18.9 kHz</b></li>
+            <li>B. 1.89 kHz</li>
+            <li>C. 94.5 kHz</li>
+            <li>D. 9.45 kHz</li>
+        </ul>
+        <p>Here we move decimal place a bit and we calculate 18 (1.8 MHz) divided by 1 (95 is close to 100 that can be used as 1 after moving decimal point). This gives us number 18 as an prefix. Unfortunately there are two answers fitting this – both 18.9 kHz and 1.89 kHz. At this point you might check how many zeroes you had to remove by rounding Q to 100 and simply moving decimal point of 1.8 Mhz twice to 0.018 Mhz which converts nicely to 18 kHz pointing us toward correct answer.</p>
+        <p>Other simplification that could help here is that 1.89 kHz is simply too low of a figure. You should expect number in tens when speaking of half-power bandwidth.</p>
+
+        <h2 id="E5A11">E5A11</h2>
+        <p><b>What is the half-power bandwidth of a parallel resonant circuit that has a resonant frequency of 7.1 MHz and a Q of 150?</b></p>
+        <ul>
+            <li>A. 157.8 Hz</li>
+            <li>B. 315.6 Hz</li>
+            <li class="correct"><b>C. 47.3 kHz</b></li>
+            <li>D. 23.67 kHz</li>
+        </ul>
+        <p>BW = 7.1 MHz / 150 = ~71 / ~15 = ~5. Value 157.8 Hz and 23.67 Hz can be rounded to 2, 315.6 Hz can be rounded to 3, and only remaining is 47.3 Hz (rounded to 5) which is our correct answer.</p>
+        <p>If we had 4.72 kHz as one of answers here, we would just use same decimal point counting trick as in previous one. 150 is worth two decimal points (to be left with only one decimal digit) and for 7.1 MHz that would mean moving it to 0.071 Mhz which is in tens of kHz range.</p>
+
+        <h2 id="E5A12">E5A12</h2>
+        <p>What is the half-power bandwidth of a parallel resonant circuit that has a resonant frequency of 3.7 MHz and a Q of 118?</p>
+        <ul>
+            <li>A. 436.6 kHz</li>
+            <li>B. 218.3 kHz</li>
+            <li class="correct"><b>C. 31.4 kHz</b></li>
+            <li>D. 15.7 kHz</li>
+        </ul>
+        <p>Here we can divide 37 (3.7 MHz) by 12 (118) which results in slightly over 3. Only one matching that calculation is 31.5 kHz.</p>
+
+        <h2 id="E5A13">E5A13</h2>
+        <p><b>What is the half-power bandwidth of a parallel resonant circuit that has a resonant frequency of 14.25 MHz and a Q of 187?</b></p>
+        <ul>
+            <li>A. 38.1 kHz</li>
+            <li class="correct"><b>B. 76.2 kHz</b></li>
+            <li>C. 1.332 kHz</li>
+            <li>D. 2.665 kHz</li>
+        </ul>
+        <p>Again we cheat and divide 14 (14.25 MHz) by 2 (187). This gives us 7 which brings us to correct value of 76.2 kHz.</p>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Easy(er) Electrical Principles for Extra Class Ham License</title>
+        <link rel="stylesheet" href="../style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    </head>
+
+    <body>
+        <h1>Resonant Frequency</h1>
+        <p>Formula for resonant frequency is</p>
+        <p>&nbsp; <b>f = 1 / ( 2&#960; &#8730;(LC) )</b></p>
+        <p>In human words, it is inverse of 6.28 (or just 6) times square root of inductance and capacitance. For square root I find it easier to remember squares. That is, if I have to do square root of 150, it is handy to remember 12 squared is 144 and that is reasonably close. So square root for 150 is slightly above 12.</p>
+        <p>You can also get a square root of each component before multiplying them together. If we had L = 15 and C = 10 (as in previous case), we could say that square root of 15 is slightly less than 4 and square root of 10 is slightly higher than 3. Both of those multiplied together give us ball park value of 12. Do notice that doing this will increase your error so single square root is preferred.</p>
+        <p>If you want to play with decimal points when calculating squares, do remember that you need to move decimal point in increments of two. That is, square root will start with same numbers for 1230, 123000, and 1.23.</p>
+        <p>For inverse I just add zeros to 1 until I am happy. If I have to calculate 1 / 12.34 I will add two zeroes up to make it 100 / 12.34 and then I will forget anything after decimal point for lower number making it 100 / 12. Result is slightly higher than 8 and that is usually sufficient to select correct answer.</p>
+        <p>And resistance you see in questions when resonant frequency is needed you can safely and completely ignore.</p>
+
+        <h2 id="E5A14">E5A14</h2>
+        <p><b>What is the resonant frequency of a series RLC circuit if R is 22 ohms, L is 50 microhenrys and C is 40 picofarads?</b></p>
+        <ul>
+            <li>A. 44.72 MHz</li>
+            <li>B. 22.36 MHz</li>
+            <li class="correct"><b>C. 3.56 MHz</b></li>
+            <li>D. 1.78 MHz</li>
+        </ul>
+        <p>This we calculate as 1 / ( 6 x &#8730;(50x40) ). Calculating for square root of 2000 is not trivial but we can multiply few numbers on side paper and see it is slightly less than 45 (as 45x45 is 2025). Multiply that with 6 and we get 270. Inverse of that can be seen as 100 / 27. And that is a bit higher than 3. One answer that is starting with something slightly above 3 is 3.56 MHz.</p>
+
+        <h2 id="E5A15">E5A15</h2>
+        <p><b>What is the resonant frequency of a series RLC circuit if R is 56 ohms, L is 40 microhenrys and C is 200 picofarads?</b></p>
+        <ul>
+            <li>A. 3.76 MHz</li>
+            <li class="correct"><b>B. 1.78 MHz</b></li>
+            <li>C. 11.18 MHz</li>
+            <li>D. 22.36 MHz</li>
+        </ul>
+        <p>This can be simplified as 1 / ( 6 x &#8730;(40x200) ). As 40x200 is difficult to calculate and we can move decimal points in pairs when speaking about roots we can further simply this by making it 1 / ( 6 x &#8730;(40x2) ). Finding square root of 80 will be something slightly lower than 9. Which gives us 54 to inverse.</p>
+        <p>Adding some zeros makes 100 / 54 slightly less than 2. Numbers fitting this are 1.78 MHz and 11.18 MHz. However, as our result is just slightly below 2, 1.78 MHz seems as a reasonable figure.</p>
+
+        <h2 id="E5A16">E5A16</h2>
+        <p><b>What is the resonant frequency of a parallel RLC circuit if R is 33 ohms, L is 50 microhenrys and C is 10 picofarads?</b></p>
+        <ul>
+            <li>A. 23.5 MHz</li>
+            <li>B. 23.5 kHz</li>
+            <li>C. 7.12 kHz</li>
+            <li class="correct"><b>D. 7.12 MHz</b></li>
+        </ul>
+        <p>Our simplification is 1 / ( 6 x &#8730;(50x10) ). First we calculate square root of 500. For this we can take move decimal points and make it a square root of 5 which is slightly over 2. Calculating 6 times 2 gives us 12 (although we might as well call it 13 as we rounded down both 2&#960; and square root). Inverse of 12 can be calculated as 100 divided by 12 (or 13) which gives 8 (or 7).</p>
+        <p>Unfortunately two results fit this criteria. Both 7.12 kHz and 7.12 MHz are in this ballpark. While calculating values (or tracking all decimal place movements) is one solution we don't need it here – we can be sure any result in this exam will be in MHz range – not in kHz.</p>
+
+        <h2 id="E5A17">E5A17</h2>
+        <p><b>What is the resonant frequency of a parallel RLC circuit if R is 47 ohms, L is 25 microhenrys and C is 10 picofarads?</b></p>
+        <ul>
+            <li class="correct"><b>A. 10.1 MHz</b></li>
+            <li>B. 63.2 MHz</li>
+            <li>C. 10.1 kHz</li>
+            <li>D. 63.2 kHz</li>
+        </ul>
+        <p>Simplified this becomes 1 / ( 6 x &#8730;(25x10) ). Square root for 250 is slightly less than 16 (as 16x16 is 256) so we need to have inverse of 96 (6 x 16). To get inverse of 100 (approximated again) we need to calculate 100 / 100 which is essentially 1.</p>
+        <p>Again we have two values in the ball park – 10.1 MHz and 10.1 kHz. As for last question, MHz range is one we are searching for.</p>
+    </body>
+</html>

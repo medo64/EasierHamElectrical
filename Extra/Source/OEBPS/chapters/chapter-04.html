@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Easy(er) Electrical Principles for Extra Class Ham License</title>
+        <link rel="stylesheet" href="../style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    </head>
+
+    <body>
+        <h1>Time Constant</h1>
+        <p><b>Time constant</b> for an RC circuit is calculated by simple <b>multiplication of resistance and capacitance values</b> (thus its name – RC).</p>
+        <p>If you start with capacitor at 0 volts, its voltage will raise to 63.2% (<b>or 2/3<sup>rd</sup></b>) within that <b>single time constant</b> value. If you start discharging capacitor it will fall to 36.8% (or <b>1/3<sup>rd</sup></b> – exactly the same as in previous situation) of its value within same time.</p>
+        <p>If we wait twice as long (<b>two time constants</b>) we are going to either raise to <b>7/8<sup>th</sup></b> or fall to <b>1/8<sup>th</sup></b> of voltage.</p>
+
+        <h2 id="E5B01">E5B01</h2>
+        <p><b>What is the term for the time required for the capacitor in an RC circuit to be charged to 63.2% of the applied voltage?</b></p>
+        <ul>
+            <li>A. An exponential rate of one</li>
+            <li class="correct"><b>B. One time constant</b></li>
+            <li>C. One exponential period</li>
+            <li>D. A time factor of one</li>
+        </ul>
+        <p>Time to get voltage on the capacitor up to (approximately) 2/3<sup>rd</sup> of target is one time constant.</p>
+
+        <h2 id="E5B02">E5B02</h2>
+        <p><b>What is the term for the time it takes for a charged capacitor in an RC circuit to discharge to 36.8% of its initial voltage?</b></p>
+        <ul>
+            <li>A. One discharge period</li>
+            <li>B. An exponential discharge rate of one</li>
+            <li>C. A discharge factor of one</li>
+            <li class="correct"><b>D. One time constant</b></li>
+        </ul>
+        <p>Time to get voltage on the capacitor 2/3<sup>rd</sup> down (or to 1/3<sup>rd</sup>) is one time constant.</p>
+
+        <h2 id="E5B03">E5B03</h2>
+        <p><b>The capacitor in an RC circuit is discharged to what percentage of the starting voltage after two time constants?</b></p>
+        <ul>
+            <li>A. 86.5%</li>
+            <li>B. 63.2%</li>
+            <li>C. 36.8%</li>
+            <li class="correct"><b>D. 13.5%</b></li>
+        </ul>
+        <p>After two time constants we are going to be at 1/8<sup>th</sup> of starting value.</p>
+
+        <h2 id="E5B04">E5B04</h2>
+        <p><b>What is the time constant of a circuit having two 220-microfarad capacitors and two 1-megohm resistors, all in parallel?</b></p>
+        <ul>
+            <li>A. 55 seconds</li>
+            <li>B. 110 seconds</li>
+            <li>C. 440 seconds</li>
+            <li class="correct"><b>D. 220 seconds</b></li>
+        </ul>
+        <p>Time constant is calculated by multiplying capacitance and resistance values. Two 220 µF capacitors in parallel are still 220 µF. And same goes for two 1 M&#937; resistors – value is still 1 M&#937;. As before we simply ignore units and calculate 220 x 1 which gives us correct answer of 220 seconds.</p>
+
+        <h2 id="E5B05">E5B05</h2>
+        <p><b>How long does it take for an initial charge of 20 V DC to decrease to 7.36 V DC in a 0.01-microfarad capacitor when a 2-megohm resistor is connected across it?</b></p>
+        <ul>
+            <li class="correct"><b>A. 0.02 seconds</b></li>
+            <li>B. 0.04 seconds</li>
+            <li>C. 20 seconds</li>
+            <li>D. 40 seconds</li>
+        </ul>
+        <p>Looking at decrease of voltage on capacitor we can see it is close to 1/3<sup>rd</sup> of initial value which gives us indicator we're looking at one time constant. Multiplication of 2 M&#937; with 0.01 µF gives us 0.02 which is correct answer (notice that Mega and micro unit prefixes conveniently cancel one another).</p>
+        <p>Do notice that we could also calculate this by moving decimal places around and have result of 2. This gives us choice between 0.02 and 20 seconds. Here we need to have previous knowledge of what appropriate value would be. Since capacitance value is on lower side, chance is that result would be too so 0.02 fits better.</p>
+
+        <h2 id="E5B06">E5B06</h2>
+        <p><b>How long does it take for an initial charge of 800 V DC to decrease to 294 V DC in a 450-microfarad capacitor when a 1-megohm resistor is connected across it?</b></p>
+        <ul>
+            <li>A. 4.50 seconds</li>
+            <li>B. 9 seconds</li>
+            <li class="correct"><b>C. 450 seconds</b></li>
+            <li>D. 900 seconds</li>
+        </ul>
+        <p>Result of 800 divided by 290 is again around 1/3<sup>rd</sup> and we are looking into one time constant. Simple multiplication of 450 by 1 gives us 450 and that is our answer. As in previous question, Mega and micro prefixes conveniently cancel one another.</p>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Easy(er) Electrical Principles for Extra Class Ham License</title>
+        <link rel="stylesheet" href="../style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    </head>
+
+    <body>
+        <h1>Phase Relationships</h1>
+        <p>In any RLC circuit we will have <b>reactance due to an inductor (X<sub>L</sub>) and reactance due capacitor (X<sub>C</sub>)</b>. Whichever is higher determines which characteristic is more pronounced. For example, if X<sub>C</sub> is 500 &#937; and X<sub>L</sub> is 300 &#937;, this is pretty much same as if X<sub>C</sub> was to be 200 &#937; and we ignore X<sub>L</sub> altogether.</p>
+        <p>For this we need to remember capacitors love current and inductors love voltage and we will know whether voltage or current leads when angle is needed. To get exact phase angle we can use formula</p>
+        <p>&nbsp; phase angle = tan<sup>-1</sup>( X / R )</p>
+        <p>where X is difference between XC and XL. However, you don't need to remember it for this exam – phase angle is always <b>14°</b>.</p>
+
+        <h2 id="E5B07">E5B07</h2>
+        <p><b>What is the phase angle between the voltage across and the current through a series RLC circuit if XC is 500 ohms, R is 1 kilohm, and XL is 250 ohms?</b></p>
+        <ul>
+            <li>A. 68.2 degrees with the voltage leading the current</li>
+            <li>B. 14.0 degrees with the voltage leading the current</li>
+            <li class="correct"><b>C. 14.0 degrees with the voltage lagging the current</b></li>
+            <li>D. 68.2 degrees with the voltage lagging the current</li>
+        </ul>
+        <p>In this case we can see that we essentially have XC = 250 &#937; (XC – XL) due to XC being higher. As capacitors &quot;love&quot; current, we know that current leads. Other way to say current leads is that voltage lags and there are two such answers. Our crystal ball tells us angle is 14° so we know correct answer is 14.0 degrees with the voltage lagging the current.</p>
+
+        <h2 id="E5B08">E5B08</h2>
+        <p><b>What is the phase angle between the voltage across and the current through a series RLC circuit if XC is 100 ohms, R is 100 ohms, and XL is 75 ohms?</b></p>
+        <ul>
+            <li class="correct"><b>A. 14 degrees with the voltage lagging the current</b></li>
+            <li>B. 14 degrees with the voltage leading the current</li>
+            <li>C. 76 degrees with the voltage leading the current</li>
+            <li>D. 76 degrees with the voltage lagging the current</li>
+        </ul>
+        <p>In this case we can see that XC is higher and thus combined reactance will be 25 &#937; (100 &#937; - 75 &#937;) but with pronounced capacitor reactance so we might as well treat it as if XC was 25 &#937; and XL was 0 &#937;. So basically we only have capacitor reactance to deal with.</p>
+        <p>As capacitors &quot;love&quot; current, we know that current will lead. Another way of saying that is that voltage lags. And that leaves us with a single answer that satisfies both that and our magic 14° rule.</p>
+
+        <h2 id="E5B09">E5B09</h2>
+        <p><b>What is the relationship between the current through a capacitor and the voltage across a capacitor?</b></p>
+        <ul>
+            <li>A. Voltage and current are in phase</li>
+            <li>B. Voltage and current are 180 degrees out of phase</li>
+            <li>C. Voltage leads current by 90 degrees</li>
+            <li class="correct"><b>D. Current leads voltage by 90 degrees</b></li>
+        </ul>
+        <p>Capacitors love current. So current leads.</p>
+
+        <h2 id="E5B10">E5B10</h2>
+        <p><b>What is the relationship between the current through an inductor and the voltage across an inductor?</b></p>
+        <ul>
+            <li class="correct"><b>A. Voltage leads current by 90 degrees</b></li>
+            <li>B. Current leads voltage by 90 degrees</li>
+            <li>C. Voltage and current are 180 degrees out of phase</li>
+            <li>D. Voltage and current are in phase</li>
+        </ul>
+        <p>Inductors are exactly opposite of capacitor. They simple adore voltage. So voltage leads here.</p>
+
+        <h2 id="E5B11">E5B11</h2>
+        <p><b>What is the phase angle between the voltage across and the current through a series RLC circuit if XC is 25 ohms, R is 100 ohms, and XL is 50 ohms?</b></p>
+        <ul>
+            <li>A. 14 degrees with the voltage lagging the current</li>
+            <li class="correct"><b>B. 14 degrees with the voltage leading the current</b></li>
+            <li>C. 76 degrees with the voltage lagging the current</li>
+            <li>D. 76 degrees with the voltage leading the current</li>
+        </ul>
+        <p>As XL is bigger than XC, we know we only deal with inductor reactance XL = 25 &#937;. As inductors love voltage, simply select answer stating magical 14 degrees with the voltage leading the current.</p>
+
+        <h2 id="E5B12">E5B12</h2>
+        <p><b>What is the phase angle between the voltage across and the current through a series RLC circuit if XC is 75 ohms, R is 100 ohms, and XL is 50 ohms?</b></p>
+        <ul>
+        <li>A. 76 degrees with the voltage lagging the current</li>
+        <li>B. 14 degrees with the voltage leading the current</li>
+        <li class="correct"><b>C. 14 degrees with the voltage lagging the current</b></li>
+        <li>D. 76 degrees with the voltage leading the current</li>
+        </ul>
+        <p>Capacitor reactance will be XC = 25 &#937; (75 &#937; - 50 &#937;). This brings us suitable to fact that capacitors are madly in love with current and they'll do anything to make voltage lag.</p>
+
+        <h2 id="E5B13">E5B13</h2>
+        <p><b>What is the phase angle between the voltage across and the current through a series RLC circuit if XC is 250 ohms, R is 1 kilohm, and XL is 500 ohms?</b></p>
+        <ul>
+            <li>A. 81.47 degrees with the voltage lagging the current</li>
+            <li>B. 81.47 degrees with the voltage leading the current</li>
+            <li>C. 14.04 degrees with the voltage lagging the current</li>
+            <li class="correct"><b>D. 14.04 degrees with the voltage leading the current</b></li>
+        </ul>
+        <p>With reactance XL being 250 &#937; (500 &#937; - 250 &#937;) we know that rule of love between inductors and voltage applies. So voltage leads the current.</p>
+    </body>
+</html>
