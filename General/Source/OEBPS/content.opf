@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="UUID">
+     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>Easy(er) Electrical Principles for General Class Ham License</dc:title>
+        <dc:creator opf:role="aut" opf:file-as="Medved, Josip">Josip Medved</dc:creator>
+        <dc:contributor opf:role="bkp" opf:file-as="Medved, Josip">Josip Medved</dc:contributor>
+        <dc:description></dc:description>
+        <dc:date>2015</dc:date>
+        <dc:identifier id="UUID">urn:uuid:35cb2e36-52fa-4ec2-9b62-b38f45aa1d60</dc:identifier>
+        <dc:language>en</dc:language>
+        <dc:type>Text</dc:type>
+        <meta name="cover" content="cover" />
+    </metadata>
+
+    <manifest>
+        <item id="styleSheet" href="style.css"                media-type="text/css"                 />
+        <item id="cover"      href="cover.png"                media-type="image/png"                />
+        <item id="coverHtml"  href="cover.html"               media-type="application/xhtml+xml"    />
+        <item id="toc"        href="toc.ncx"                  media-type="application/x-dtbncx+xml" /> 
+        <item id="tocHtml"    href="toc.html"                 media-type="application/xhtml+xml"    />
+
+        <item id="foreword"   href="other/foreword.html"      media-type="application/xhtml+xml"    />
+
+        <item id="chapter-01" href="chapters/chapter-01.html" media-type="application/xhtml+xml"    />
+        <item id="chapter-02" href="chapters/chapter-02.html" media-type="application/xhtml+xml"    />
+        <item id="chapter-03" href="chapters/chapter-03.html" media-type="application/xhtml+xml"    />
+        <item id="chapter-04" href="chapters/chapter-04.html" media-type="application/xhtml+xml"    />
+        <item id="chapter-05" href="chapters/chapter-05.html" media-type="application/xhtml+xml"    />
+    </manifest>
+
+    <spine toc="toc">
+        <itemref idref="foreword"   />
+        <itemref idref="chapter-01" />
+        <itemref idref="chapter-02" />
+        <itemref idref="chapter-03" />
+        <itemref idref="chapter-04" />
+        <itemref idref="chapter-05" />
+    </spine>
+
+    <guide>
+        <reference type="cover" title="Cover"             href="cover.html" />
+        <reference type="toc"   title="Table of Contents" href="toc.html"   />
+    </guide>
+</package>

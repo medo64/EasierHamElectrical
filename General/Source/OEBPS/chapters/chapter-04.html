@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>Easy(er) Electrical Principles for General Class Ham License</title>
+        <link rel="stylesheet" href="../style.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    </head>
+
+    <body>
+        <h1>Power</h1>
+        <p>Main formula for power is <b>P = V × I</b> (in units that is W = V × A). This simply means we need to multiply voltage with current to get total power. And we are interested only in RMS voltage when it comes to power – not peak to peak. Another useful ways to get power is by using <b>P = V<sup>2</sup> / R</b> or <b>P = I<sup>2</sup> × R</b>.</p>
+        <p><b>Peak-to-peak</b> voltage is exactly <b>two times peak voltage</b>. In formula this would be V<sub>peak-to-peak</sub> = 2 x V<sub>peak</sub>.</p>
+        <p>Whenever there is a question of power we need to calculate with <b>RMS voltage</b> and that one is V<sub>RMS</sub> = V<sub>peak</sub> × 0.7 (or <b>about 3/4<sup>th</sup></b>).</p>
+        <p><b>Peak envelope power</b> is just another name for <b>average power</b> (of an unmodulated carrier).</p>
+        <p>Calculator is usually not necessary for any calculation here – you can just abuse the heck out of metric system and move decimal place around at will. That is, result will start with same numbers if you square number 4 (<b>16</b>), 40 (<b>16</b>00), or 400 (<b>16</b>0,000).</p>
+        <p>Similarly you can move decimal point to make numbers arbitrarily smaller (or bigger). Formula will return <b>same starting digits</b> whether you divide/multiply by <b>2</b>, <b>2</b>0, or <b>2</b>00.</p>
+        <p>Do notice that we can completely ignore units in most cases and there is a good reason for this. Those preparing questions want to see it you understand the principle, not whether you can do basic algebra. When you need these formulas in real life, you will have a calculator next to you and you can do it properly.</p>
+
+        <h2 id="G5B03">G5B03</h2>
+        <p><b>How many watts of electrical power are used if 400 VDC is supplied to an 800-ohm load?</b></p>
+        <ul>
+            <li>A. 0.5 watts</li>
+            <li class="correct"><b>B. 200 watts</b></li>
+            <li>C. 400 watts</li>
+            <li>D. 3200 watts</li>
+        </ul>
+        <p>As we have voltage and resistance handy we can fetch P = V<sup>2</sup> / R from our memory. This would make power equal to 400<sup>2</sup> / 800. Abusing decimal point brings us to have this simplified to 4<sup>2</sup> / 8. This gives handy result of 2.</p>
+        <p>As we moved decimal point around, we just see what begins with number in that ballpark and here the single answer is 200 W.</p>
+
+        <h2 id="G5B04">G5B04</h2>
+        <p><b>How many watts of electrical power are used by a 12-VDC light bulb that draws 0.2 amperes?</b></p>
+        <ul>
+            <li class="correct"><b>A. 2.4 watts</b></li>
+            <li>B. 24 watts</li>
+            <li>C. 6 watts</li>
+            <li>D. 60 watts</li>
+        </ul>
+        <p>From our memory we fetch P = V × I. Thus power is equal to 12 × 0.2. Those annoyed by decimal point can just calculate 12 × 2 = 24 and see what matches.</p>
+        <p>Unfortunately this brings us to two matching results: 2.4 W and 24 W. Since one of numbers we multiplied was lower than 1, we can deduce result cannot be 24 W and that leaves 2.4 W as a correct answer.</p>
+
+        <h2 id="G5B05">G5B05</h2>
+        <p><b>How many watts are dissipated when a current of 7.0 milliamperes flows through 1.25 kilohms?</b></p>
+        <ul>
+            <li class="correct"><b>A. Approximately 61 milliwatts</b></li>
+            <li>B. Approximately 61 watts</li>
+            <li>C. Approximately 11 milliwatts</li>
+            <li>D. Approximately 11 watts</li>
+        </ul>
+        <p>Question will force us to remember another power formula P = I<sup>2</sup> × R. Here we can simplify this as 7<sup>2</sup> x ~1 (about 1/4<sup>th</sup> above 1). This gives us result 1/4<sup>th</sup> higher than 49. Two results do match this description but we can see that question deals with really small currents. Thus power cannot be large and we can select 61 mW.</p>
+
+        <h2 id="G5B06">G5B06</h2>
+        <p><b>What is the output PEP from a transmitter if an oscilloscope measures 200 volts peak-to-peak across a 50-ohm dummy load connected to the transmitter output?</b></p>
+        <ul>
+            <li>A. 1.4 watts</li>
+            <li class="correct"><b>B. 100 watts</b></li>
+            <li>C. 353.5 watts</li>
+            <li>D. 400 watts</li>
+        </ul>
+        <p>Formula for power that fits having voltage and resistance is P = V<sup>2</sup> / R. As voltage is peak-to-peak we need to convert it to peak voltage by dividing it by two and thus our peak voltage is 100V. V<sub>RMS</sub> is then around 70 V (3/4<sup>th</sup> of a value). Abusing decimal point will tell us result will be starting with same numbers as 7<sup>2</sup> / 5. Again rounding that is 50 / 5 = 10 and correct answer is only one starting with 10 – 100 W.</p>
+
+        <h2 id="G5B14">G5B14</h2>
+        <p><b>What is the output PEP from a transmitter if an oscilloscope measures 500 volts peak-to-peak across a 50-ohm resistor connected to the transmitter output?</b></p>
+        <ul>
+            <li>A. 8.75 watts</li>
+            <li class="correct"><b>B. 625 watts</b></li>
+            <li>C. 2500 watts</li>
+            <li>D. 5000 watts</li>
+        </ul>
+        <p>Same calculation applies. 500 volts peak-to-peak is 250 volts in peak and about 180 volts RMS. Further rounding gives 2<sup>2</sup> / 5 which is same as 40 / 5 giving us 8. As we always rounded up, we know that first number must be smaller than 8 and 626 W fits that nicely.</p>
+        <p>Notice that values here are quite close (as far as first digit goes) and that we need to always remember whether we rounded up or down. We could have gotten much closer if we used 18<sup>2</sup> instead of rounding to 2 but calculating 18<sup>2</sup> is pain-in-the butt.</p>
+
+        <h2 id="G5B07">G5B07</h2>
+        <p><b>Which value of an AC signal results in the same power dissipation as a DC voltage of the same value?</b></p>
+        <ul>
+            <li>A. The peak-to-peak value</li>
+            <li>B. The peak value</li>
+            <li class="correct"><b>C. The RMS value</b></li>
+            <li>D. The reciprocal of the RMS value</li>
+        </ul>
+        <p>When dealing with power dissipation, RMS is the way to go.</p>
+
+        <h2 id="G5B08">G5B08</h2>
+        <p><b>What is the peak-to-peak voltage of a sine wave that has an RMS voltage of 120 volts?</b></p>
+        <ul>
+            <li>A. 84.8 volts</li>
+            <li>B. 169.7 volts</li>
+            <li>C. 240.0 volts</li>
+            <li class="correct"><b>D. 339.4 volts</b></li>
+        </ul>
+        <p>Instead of calculating peak-to-peak we can solve this by removing what isn’t correct result. First thing we know is that peak voltage is always larger than RMS. As we are speaking about peak-to-peak values we need to divide all results by 2 and single (half) result that is larger than 120 V is 339.4 V.</p>
+
+        <h2 id="G5B09">G5B09</h2>
+        <p><b>What is the RMS voltage of a sine wave with a value of 17 volts peak?</b></p>
+        <ul>
+            <li>A. 8.5 volts</li>
+            <li class="correct"><b>B. 12 volts</b></li>
+            <li>C. 24 volts</li>
+            <li>D. 34 volts</li>
+        </ul>
+        <p>If you take peak value of 17 V and multiply it by 3/4<sup>th</sup> result will be around 13 V. Closest value is thus 12 volts.</p>
+
+        <h2 id="G5B11">G5B11</h2>
+        <p><b>What is the ratio of peak envelope power to average power for an unmodulated carrier?</b></p>
+        <ul>
+            <li>A. .707</li>
+            <li class="correct"><b>B. 1.00</b></li>
+            <li>C. 1.414</li>
+            <li>D. 2.00</li>
+        </ul>
+        <p>Peak envelope power is average power of an unmodulated carrier. Thus ratio is 1:1.</p>
+
+        <h2 id="G5B12">G5B12</h2>
+        <p><b>What would be the RMS voltage across a 50-ohm dummy load dissipating 1200 watts?</b></p>
+        <ul>
+            <li>A. 173 volts</li>
+            <li class="correct"><b>B. 245 volts</b></li>
+            <li>C. 346 volts</li>
+            <li>D. 692 volts</li>
+        </ul>
+        <p>Formula for this is good old  P = V<sup>2</sup> / R. One can either swap variables around and deal with square roots or you can simply put each answer through formula to determine which one gives result closest to 1200 W. In our case 245<sup>2</sup> / 50 is similar to 25<sup>2</sup> / 50 which is close enough to 60 / 5 and gives us 12. That is close to starting digits in our question.</p>
+
+        <h2 id="G5B13">G5B13</h2>
+        <p><b>What is the output PEP of an unmodulated carrier if an average reading wattmeter connected to the transmitter output indicates 1060 watts?</b></p>
+        <ul>
+            <li>A. 530 watts</li>
+            <li class="correct"><b>B. 1060 watts</b></li>
+            <li>C. 1500 watts</li>
+            <li>D. 2120 watts</li>
+        </ul>
+        <p>Peak envelope power is average power of an unmodulated carrier.</p>
+    </body>
+</html>
