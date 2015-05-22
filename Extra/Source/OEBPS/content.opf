@@ -2,7 +2,7 @@
 <package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="UUID">
      <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
         <dc:title>Easy(er) Electrical Principles for Extra Class Ham License</dc:title>
-        <dc:creator opf:role="aut" opf:file-as="Medved, Josi">Josip Medved</dc:creator>
+        <dc:creator opf:role="aut" opf:file-as="Medved, Josip">Josip Medved</dc:creator>
         <dc:contributor opf:role="bkp" opf:file-as="Medved, Josip">Josip Medved</dc:contributor>
         <dc:description></dc:description>
         <dc:date>2015</dc:date>
