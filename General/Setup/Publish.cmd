@@ -93,8 +93,10 @@ IF DEFINED EXE_KINDLEGEN (
 ECHO --- RELEASE
 ECHO.
 
-DEL /Q ..\Releases\*.* 2> NUL
 MKDIR ..\Releases 2> NUL
+DEL /Q ..\Releases\*.epub 2> NUL
+DEL /Q ..\Releases\*.mobi 2> NUL
+DEL /Q ..\Releases\*.png 2> NUL
 MOVE ".\Temp\*.*" "..\Releases\." > NUL
 IF ERRORLEVEL 1 PAUSE && EXIT /B %ERRORLEVEL%
 RMDIR /Q /S ".\Temp"
