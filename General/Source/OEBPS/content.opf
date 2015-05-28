@@ -7,7 +7,6 @@
         <dc:description></dc:description>
         <dc:date>2015</dc:date>
         <dc:identifier id="UUID">urn:uuid:35cb2e36-52fa-4ec2-9b62-b38f45aa1d60</dc:identifier>
-        <dc:identifier id="ISBN">urn:isbn:9781311809650</dc:identifier>
         <dc:language>en</dc:language>
         <dc:type>Text</dc:type>
         <meta name="cover" content="cover" />
