@@ -26,7 +26,7 @@ IF DEFINED EXE_OPTIPNG (
     ECHO --- OPTIMIZE PNG
     ECHO.
 
-    FOR /F "delims=" %%F in ('DIR "..\*.png" /B /S /A-D') do (
+    FOR /F "delims=" %%F in ('DIR "..\Source\*.png" /B /S /A-D') do (
         ECHO %%F
         DEL "%%F.tmp" 2> NUL
         %EXE_OPTIPNG% -o7 -silent -out "%%F.tmp" "%%F"
@@ -42,7 +42,7 @@ IF DEFINED EXE_JPEGTRAN (
     ECHO --- OPTIMIZE JPEG
     ECHO.
 
-    FOR /F "delims=" %%F in ('DIR "..\*.jpg" /B /S /A-D') do (
+    FOR /F "delims=" %%F in ('DIR "..\Source\*.jpg" /B /S /A-D') do (
         ECHO %%F
         DEL "%%F.tmp" 2> NUL
         %EXE_JPEGTRAN% -copy none -optimize -outfile "%%F.tmp" "%%F"
@@ -98,6 +98,9 @@ MKDIR ..\Releases 2> NUL
 MOVE ".\Temp\*.*" "..\Releases\." > NUL
 IF ERRORLEVEL 1 PAUSE && EXIT /B %ERRORLEVEL%
 RMDIR /Q /S ".\Temp"
+
+COPY "..\Source\OEBPS\cover.png" "..\Releases\%PREFIX%.png" > NUL
+IF ERRORLEVEL 1 PAUSE && EXIT /B %ERRORLEVEL%
 
 ECHO Released.
 
