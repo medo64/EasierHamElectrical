@@ -43,6 +43,10 @@
                 <navLabel><text>G5A06</text></navLabel>
                 <content src="chapters/chapter-01.html#G5A06" />
             </navPoint>
+            <navPoint class="chapter" id="c01-G5A07">
+                <navLabel><text>G5A07</text></navLabel>
+                <content src="chapters/chapter-01.html#G5A07" />
+            </navPoint>
             <navPoint class="chapter" id="c01-G5A08">
                 <navLabel><text>G5A08</text></navLabel>
                 <content src="chapters/chapter-01.html#G5A08" />
@@ -106,21 +110,9 @@
                 <navLabel><text>G5B05</text></navLabel>
                 <content src="chapters/chapter-04.html#G5B05" />
             </navPoint>
-            <navPoint class="chapter" id="c04-G5B06">
-                <navLabel><text>G5B06</text></navLabel>
-                <content src="chapters/chapter-04.html#G5B06" />
-            </navPoint>
-            <navPoint class="chapter" id="c04-G5B14">
-                <navLabel><text>G5B14</text></navLabel>
-                <content src="chapters/chapter-04.html#G5B14" />
-            </navPoint>
             <navPoint class="chapter" id="c04-G5B07">
                 <navLabel><text>G5B07</text></navLabel>
                 <content src="chapters/chapter-04.html#G5B07" />
-            </navPoint>
-            <navPoint class="chapter" id="c04-G5B08">
-                <navLabel><text>G5B08</text></navLabel>
-                <content src="chapters/chapter-04.html#G5B08" />
             </navPoint>
             <navPoint class="chapter" id="c04-G5B09">
                 <navLabel><text>G5B09</text></navLabel>
@@ -134,9 +126,17 @@
                 <navLabel><text>G5B12</text></navLabel>
                 <content src="chapters/chapter-04.html#G5B12" />
             </navPoint>
+            <navPoint class="chapter" id="c04-G5B06">
+                <navLabel><text>G5B06</text></navLabel>
+                <content src="chapters/chapter-04.html#G5B06" />
+            </navPoint>
             <navPoint class="chapter" id="c04-G5B13">
                 <navLabel><text>G5B13</text></navLabel>
                 <content src="chapters/chapter-04.html#G5B13" />
+            </navPoint>
+            <navPoint class="chapter" id="c04-G5B14">
+                <navLabel><text>G5B14</text></navLabel>
+                <content src="chapters/chapter-04.html#G5B14" />
             </navPoint>
         </navPoint>
 
@@ -202,6 +202,18 @@
             <navPoint class="chapter" id="c05-G5C15">
                 <navLabel><text>G5C15</text></navLabel>
                 <content src="chapters/chapter-05.html#G5C15" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-G5C16">
+                <navLabel><text>G5C16</text></navLabel>
+                <content src="chapters/chapter-05.html#G5C16" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-G5C17">
+                <navLabel><text>G5C17</text></navLabel>
+                <content src="chapters/chapter-05.html#G5C17" />
+            </navPoint>
+            <navPoint class="chapter" id="c05-G5C18">
+                <navLabel><text>G5C18</text></navLabel>
+                <content src="chapters/chapter-05.html#G5C18" />
             </navPoint>
         </navPoint>
     </navMap>

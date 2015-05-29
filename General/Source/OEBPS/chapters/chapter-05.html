@@ -14,6 +14,7 @@
         <p><b>More resistors you have in line (series), the more resisting they will cause.</b> If they are connected in <b>parallel, total value will always be smaller than smallest individual resistor value</b>. If resistors are the same in size (e.g. three parallel resistors of 100 &#937;) final value will be individual value divided by number (100 &#937; / 3 ).</p>
         <p>Inductors follow the same parallel/serial values principle as resistors do.</p>
         <p><b>Capacitors</b> on other hand have their total value <b>increase when in parallel</b> and it is lower when in series.</p>
+        <p>Prefixes <b>pico, nano, micro</b> are in ascending order. That is, picofarad capacitor would be much smaller than microfarad capacitor. Nanofarad falls in between.</p>
 
         <h2 id="G5C01">G5C01</h2>
         <p><b>What causes a voltage to appear across the secondary winding of a transformer when an AC voltage source is connected across its primary winding?</b></p>
@@ -26,14 +27,14 @@
         <p>If you look at transformer as a weird inductor and you remember that inductors love voltage, you’ll find the answer.</p>
 
         <h2 id="G5C02">G5C02</h2>
-        <p><b>Which part of a transformer is normally connected to the incoming source of energy?</b></p>
+        <p><b>What happens if you reverse the primary and secondary windings of a 4:1 voltage step down transformer?</b></p>
         <ul>
-            <li>A. The secondary</li>
-            <li class="correct"><b>B. The primary</b></li>
-            <li>C. The core</li>
-            <li>D. The plates</li>
+            <li class="correct"><b>A. The secondary voltage becomes 4 times the primary voltage</b></li>
+            <li>B. The transformer no longer functions as it is a unidirectional device</li>
+            <li>C. Additional resistance must be added in series with the primary to prevent overload</li>
+            <li>D. Additional resistance must be added in parallel with the secondary to prevent overload</li>
         </ul>
-        <p>Energy source is always on primary side.</p>
+        <p>If you reverse the windings, you reverse the roles of primary and secondary.</p>
 
         <h2 id="G5C03">G5C03</h2>
         <p><b>Which of the following components should be added to an existing resistor to increase the resistance?</b></p>
@@ -48,23 +49,22 @@
         <h2 id="G5C04">G5C04</h2>
         <p><b>What is the total resistance of three 100-ohm resistors in parallel?</b></p>
         <ul>
-            <li>A. .30 ohms</li>
-            <li>B. .33 ohms</li>
+            <li>A. 0.30 ohms</li>
+            <li>B. 0.33 ohms</li>
             <li class="correct"><b>C. 33.3 ohms</b></li>
             <li>D. 300 ohms</li>
         </ul>
         <p>Resistors in parallel will have their total always smaller than any individual one. And since they are all the same value, you only need to divide them by 3.</p>
 
         <h2 id="G5C05">G5C05</h2>
-        <p><b>If three equal value resistors in parallel produce 50 ohms of resistance, and the same three resistors in series produce 450 ohms, what is the value of each resistor?</b></p>
+        <p><b>If three equal value resistors in series produce 450 ohms, what is the value of each resistor?</b></p>
         <ul>
             <li>A. 1500 ohms</li>
             <li>B. 90 ohms</li>
             <li class="correct"><b>C. 150 ohms</b></li>
             <li>D. 175 ohms</li>
         </ul>
-        <p>Since resistors are the same and we know their parallel value is 1/3<sup>rd</sup> of value each has, we can see that 150 &#937; is only one that fits the bill.</p>
-        <p>Alternatively we know that resistance is added if they are in series. So we can also divide 450 &#937; by 3 and get the same result.</p>
+        <p>We know that resistance is added if they are in series. Dividing 450 by 3 gives us 150.</p>
 
         <h2 id="G5C06">G5C06</h2>
         <p><b>What is the RMS voltage across a 500-turn secondary winding in a transformer if the 2250-turn primary is connected to 120 VAC?</b></p>
@@ -84,23 +84,23 @@
             <li>C. 150 to 1</li>
             <li>D. 300 to 1</li>
         </ul>
-        <p>Reflex answer here would be 150 to 1 and it would be true if we were dealing with voltages. However impedance has square relation with turn ratio. Square root of 150 is slightly more than 12 so that one is correct answer. This question is kind of an oddball.</p>
+        <p>Reflex answer here would be 150 to 1 and it would be true if we were dealing with voltages. However impedance has square relation with turn ratio. Square root of 150 is slightly more than 12 so that one is the correct answer. This question is kind of an oddball.</p>
 
         <h2 id="G5C08">G5C08</h2>
-        <p><b>What is the equivalent capacitance of two 5000 picofarad capacitors and one 750 picofarad capacitor connected in parallel?</b></p>
+        <p><b>What is the equivalent capacitance of two 5.0 nanofarad capacitors and one 750 picofarad capacitor connected in parallel?</b></p>
         <ul>
-            <li>A. 576.9 picofarads</li>
+            <li>A. 576.9 nanofarads</li>
             <li>B. 1733 picofarads</li>
             <li>C. 3583 picofarads</li>
-            <li class="correct"><b>D. 10750 picofarads</b></li>
+            <li class="correct"><b>D. 10.750 nanofarads</b></li>
         </ul>
-        <p>Capacitors in parallel add their values.</p>
+        <p>Capacitors in parallel add their values. Just based on two 5 nanofarad capacitors we know there will be at least 10 nanofarads. Additional picofarad capacitor we can safely ignore.</p>
 
         <h2 id="G5C09">G5C09</h2>
         <p><b>What is the capacitance of three 100 microfarad capacitors connected in series?</b></p>
         <ul>
-            <li>A. .30 microfarads</li>
-            <li>B. .33 microfarads</li>
+            <li>A. 0.30 microfarads</li>
+            <li>B. 0.33 microfarads</li>
             <li class="correct"><b>C. 33.3 microfarads</b></li>
             <li>D. 300 microfarads</li>
         </ul>
@@ -109,7 +109,7 @@
         <h2 id="G5C10">G5C10</h2>
         <p><b>What is the inductance of three 10 millihenry inductors connected in parallel?</b></p>
         <ul>
-            <li>A. .30 Henrys</li>
+            <li>A. 0.30 Henrys</li>
             <li>B. 3.3 Henrys</li>
             <li class="correct"><b>C. 3.3 millihenrys</b></li>
             <li>D. 30 millihenrys</li>
@@ -119,7 +119,7 @@
         <h2 id="G5C11">G5C11</h2>
         <p><b>What is the inductance of a 20 millihenry inductor in series with a 50 millihenry inductor?</b></p>
         <ul>
-            <li>A. .07 millihenrys</li>
+            <li>A. 0.07 millihenrys</li>
             <li>B. 14.3 millihenrys</li>
             <li class="correct"><b>C. 70 millihenrys</b></li>
             <li>D. 1000 millihenrys</li>
@@ -129,7 +129,7 @@
         <h2 id="G5C12">G5C12</h2>
         <p><b>What is the capacitance of a 20 microfarad capacitor in series with a 50 microfarad capacitor?</b></p>
         <ul>
-            <li>A. .07 microfarads</li>
+            <li>A. 0.07 microfarads</li>
             <li class="correct"><b>B. 14.3 microfarads</b></li>
             <li>C. 70 microfarads</li>
             <li>D. 1000 microfarads</li>
@@ -165,5 +165,36 @@
             <li>D. 80 ohms</li>
         </ul>
         <p>Total resistance of resistors in parallel will always be just a smidge below value lowest of them has.</p>
+
+        <h2 id="G5C16">G5C16</h2>
+        <p><b>Why is the conductor of the primary winding of many voltage step up transformers larger in diameter than the conductor of the secondary winding?</b></p>
+        <ul>
+            <li>A. To improve the coupling between the primary and secondary</li>
+            <li class="correct"><b>B. To accommodate the higher current of the primary</b></li>
+            <li>C. To prevent parasitic oscillations due to resistive losses in the primary</li>
+            <li>D. To insure that the volume of the primary winding is equal to the volume of the secondary winding</li>
+        </ul>
+        <p>Thicker the wire, bigger the current it supports.</p>
+
+        <h2 id="G5C17">G5C17</h2>
+        <p><b>What is the value in nanofarads (nF) of a 22,000 pF capacitor?</b></p>
+        <ul>
+            <li>A. 0.22 nF</li>
+            <li>B. 2.2 nF</li>
+            <li class="correct"><b>C. 22 nF</b></li>
+            <li>D. 220 nF</li>
+        </ul>
+        <p>Nanofarads are three zeros away from picofarads so we get correct answer by simply moving three decimal places to the left.</p>
+
+
+        <h2 id="G5C18">G5C18</h2>
+        <p><b>What is the value in microfarads of a 4700 nanofarad (nF) capacitor?</b></p>
+        <ul>
+            <li>A. 47 µF</li>
+            <li>B. 0.47 µF</li>
+            <li>C. 47,000 µF</li>
+            <li class="correct"><b>D. 4.7 µF</b></li>
+        </ul>
+        <p>Microfarads are three zeros away from nanofarads so we get correct answer by simply moving three decimal places to the left.</p>
     </body>
 </html>

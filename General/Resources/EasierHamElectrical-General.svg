@@ -91,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -178,14 +178,14 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffca;fill-opacity:1;stroke:none;font-family:Sans"
-       x="541.55371"
+       x="587.12988"
        y="276.61365"
        id="text3003-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="541.55371"
+         x="587.12988"
          y="276.61365"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffca;fill-opacity:1;font-family:Goudy Stout;-inkscape-font-specification:Goudy Stout"
-         id="tspan3007-7">2011-2015</tspan></text>
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#ffffca;fill-opacity:1;font-family:Goudy Stout;-inkscape-font-specification:Goudy Stout"
+         id="tspan3007-7">2015-2019</tspan></text>
   </g>
 </svg>
