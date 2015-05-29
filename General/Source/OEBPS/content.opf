@@ -29,6 +29,7 @@
     </manifest>
 
     <spine toc="toc">
+        <itemref idref="coverHtml"  />
         <itemref idref="foreword"   />
         <itemref idref="chapter-01" />
         <itemref idref="chapter-02" />
